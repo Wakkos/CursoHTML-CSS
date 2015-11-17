@@ -16,3 +16,14 @@
 - [Emmet](http://emmet.io/)
 - [Link a este proyecto en Github](https://github.com/Wakkos/CursoHTML-CSS)
 
+## Clase 2:
+- Inclusión del CSS en el HTML
+- Selectores CSS: Selectores de clase
+- Herencia y Cascada
+- BEM name convention
+
+### Links:
+- [Guía para escribir CSS](https://github.com/Wakkos/CSS-Guidelines)
+- [Propiedades de CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
+
+
