@@ -3,10 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:700,400,300,300italic' rel='stylesheet' type='text/css'>
 </head>
 <body>
-    <header>
+    <!-- Esto es un comentario de HTML -->
+    <header class="header-main">
         <h1>Daniel Martínez <small>Frontend UI Developer</small></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae ratione blanditiis voluptates, asperiores quisquam modi dolor itaque temporibus perspiciatis, atque tempore sit corporis quibusdam eum reprehenderit, expedita officiis. Nostrum, ipsum.</p>
     </header>
 
     <section>
@@ -16,24 +20,24 @@
         <ul>
             <li><strong>Dirección:</strong> C/ de la piruleta 1</li>
             <li><strong>Teléfono:</strong> 677 77 77 77</li>
-            <li><strong>Email:</strong> wakkos@gmail.com</li>
+            <li><strong>Email:</strong> <a href="mailto:wakkos@gmail.com">wakkos@gmail.com</a></li>
         </ul>
     </section>
     <section>
         <header>
             <h2>Experiencia Laboral</h2>
         </header>
-        <article>
-            <header>
+        <article class="article-home">
+            <header class="article-header">
                 <h3>
                     Jefe de seguridad de planta nuclear
                 </h3>
-                Desde: <time>Marzo 2000</time> Hasta: Actualidad
+                Desde: <time class="article-time color-red" id="js-fecha">Marzo 2000</time> Hasta: Actualidad
             </header>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quisquam corporis dolore at odio ullam. Ipsam id excepturi dolore, delectus vitae, eius similique nostrum amet rem recusandae, beatae doloremque nam!</p>
+            <p class="article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate quisquam corporis dolore at odio ullam. Ipsam id excepturi <span class="color-red">ROJO</span> dolore, delectus vitae, eius similique nostrum amet rem recusandae, beatae doloremque nam!</p>
         </article>
-        <article>
-            <header>
+        <article class="article-home">
+            <header class="article-header">
                 <h3>
                     Astronauta
                 </h3>
