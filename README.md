@@ -26,4 +26,15 @@
 - [Guía para escribir CSS](https://github.com/Wakkos/CSS-Guidelines)
 - [Propiedades de CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
 
+## Clase 3:
+- Display Table
+- Display Inline Block
+- Position: Absolute y Relative
+- Pseudoselectores y Pseudoelementos
+
+### Links:
+- [Guía de Pseudoselectores](https://css-tricks.com/examples/nth-child-tester/)
+- [Patrones para forularios](http://html5pattern.com/)
+- [Video explicativo sobre Pseudoselectores](https://www.youtube.com/watch?v=aCfYyXqmNLU)
+
 
