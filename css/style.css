@@ -1,81 +1,41 @@
-* {
-    box-sizing: border-box;
-}
-body {
+ul {
     margin: 0;
     padding: 0;
-}
-.parrafo {
-    border-width: 1px;
-    border-color: green;
-    border-style: solid;
-    padding-top: 5px;
-    padding-right: 20px;
-    padding-bottom: 5px;
-    padding-left: 20px;
-    margin-bottom: 1em;
-}
-
-    .parrafo--centrado {
-        max-width: 500px;
-        margin-left: auto;
-        margin-right: auto;
-        padding-right: 60px;
-        padding-left: 60px;
-    }
-
-/*.nav__list {
-    padding:0;
-    margin: 0;
     list-style-type: none;
-}*/
-.nav {
+    counter-reset: mycounter;
+}
+li {
+    background-color: yellow;
+    margin-bottom: 5px;
+    line-height: 2;
+    position: relative;
+}
+
+li:first-child {
+    background-color: red;
     width: 100%;
-    margin-bottom: 1em;
 }
-    .nav__list {
-        display: table;
-        table-layout: fixed;
-        caption-side: bottom;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-        .nav__item {
-            display: table-cell;
-            border: 1px solid olive;
-            text-align: center;
-            text-transform: uppercase;
-            font-family: Arial, Helvetica, sans-serif;
-            background-color: green;
-            color: white;
-        }
-            .nav__item--current {
-                display: table-caption;
-                background-color: aqua;
-            }
-.table {
-    display: table;
-    caption-side: bottom;
-}
-    main {
-        display: table-cell;
-    }
-    .nav {
-        display: table-caption;
-    }
 
-.inline-block {
+li:last-child {
+    background-color: green;
+}
+
+li:after {
+    content: attr(data-notas);
+    font-size: 10px;
+    background-color: white;
+    width: 2em;
+    line-height: 2;
     display: inline-block;
-    width: 20%;
-    vertical-align: middle;
-}
+    text-align: center;
+    border-radius: 100%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
 
-.img-float-left {
-    float: left;
-    margin-right: 5px;
 }
+li:before {
+    content: counter(mycounter);
+    counter-increment: mycounter;
 
-.color-red {
-    color: red;
 }
