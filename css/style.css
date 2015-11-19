@@ -1,41 +1,28 @@
-ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    counter-reset: mycounter;
+main {
+    display: table;
+    caption-side: bottom;
 }
-li {
-    background-color: yellow;
-    margin-bottom: 5px;
-    line-height: 2;
-    position: relative;
-}
-
-li:first-child {
-    background-color: red;
-    width: 100%;
-}
-
-li:last-child {
-    background-color: green;
-}
-
-li:after {
-    content: attr(data-notas);
-    font-size: 10px;
-    background-color: white;
-    width: 2em;
-    line-height: 2;
-    display: inline-block;
-    text-align: center;
-    border-radius: 100%;
-    position: absolute;
-    top: -5px;
-    right: -5px;
-
-}
-li:before {
-    content: counter(mycounter);
-    counter-increment: mycounter;
-
-}
+    section {
+        display: table-cell;
+        width: 50%;
+        vertical-align: top;
+        background-color: maroon;
+        color: white;
+    }
+    aside {
+        display: table-cell;
+        width: 50%;
+        vertical-align: top;
+        background-color: #e2e2e2;
+    }
+    .nav {
+        display: table-caption;
+    }
+        .nav li {
+            display: inline-block;
+            background-color: pink;
+            border: maroon;
+            width: 19%;
+            text-align: center;
+            line-height: 1.5;
+        }
