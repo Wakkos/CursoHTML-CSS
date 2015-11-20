@@ -1,0 +1,35 @@
+$color-base : rgb(255,250,0);
+$gutterwidth :        28px;
+
+$basefont : "Helvetica Neue", Helvetica, Arial, sans-serif;
+$altfont : Georgia, Times, "Times New Roman";
+$codefont : "Courier New", monospace;
+$baseheadingfont : $altfont;
+
+%clearfix {
+    color:red;
+}
+h1 {
+    color: $color-base;
+    font-family: $baseheadingfont;
+    @extend %clearfix;
+}
+h2 {
+    color: $color-base;
+    @extend %clearfix;
+}
+h3 {
+    color: $color-base;
+}
+h4 {
+    color: $color-base;
+}
+h5 {
+    color: $color-base;
+}
+
+
+article {
+    padding: $gutterwidth / 4;
+    margin: $gutterwidth;
+}

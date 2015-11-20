@@ -1,28 +1,22 @@
-main {
-    display: table;
-    caption-side: bottom;
-}
-    section {
-        display: table-cell;
-        width: 50%;
-        vertical-align: top;
-        background-color: maroon;
-        color: white;
-    }
-    aside {
-        display: table-cell;
-        width: 50%;
-        vertical-align: top;
-        background-color: #e2e2e2;
-    }
-    .nav {
-        display: table-caption;
-    }
-        .nav li {
-            display: inline-block;
-            background-color: pink;
-            border: maroon;
-            width: 19%;
-            text-align: center;
-            line-height: 1.5;
-        }
+h1, h2 {
+  color: red; }
+
+h1 {
+  color: #fffa00;
+  font-family: Georgia, Times, "Times New Roman"; }
+
+h2 {
+  color: #fffa00; }
+
+h3 {
+  color: #fffa00; }
+
+h4 {
+  color: #fffa00; }
+
+h5 {
+  color: #fffa00; }
+
+article {
+  padding: 7px;
+  margin: 28px; }
