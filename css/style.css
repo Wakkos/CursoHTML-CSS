@@ -1,22 +1,7 @@
-h1, h2 {
-  color: red; }
+header {
+  max-width: 700px;
+  width: 100%; }
 
-h1 {
-  color: #fffa00;
-  font-family: Georgia, Times, "Times New Roman"; }
-
-h2 {
-  color: #fffa00; }
-
-h3 {
-  color: #fffa00; }
-
-h4 {
-  color: #fffa00; }
-
-h5 {
-  color: #fffa00; }
-
-article {
-  padding: 7px;
-  margin: 28px; }
+main {
+  max-width: 100%;
+  width: 100%; }
