@@ -1,14 +1,26 @@
- $page-max-width : 100%;
-// Mixin
-@mixin max-width($alto : $page-max-width) {
-    max-width: $alto;
-    width: 100%;
+$breakpoints: (
+  'small'  : 48em,
+  'medium' : 56.25em,
+  'large'  : 68.75em,
+) !default;
+
+
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  }
+
+  @else {
+    @warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+        + "Please make sure it is defined in `$breakpoints` map.";
+  }
 }
 
-header {
-    @include max-width(700px);
-}
-
-main {
-    @include max-width;
+a {
+    color: red;
+    @include respond-to(small) {
+        color: blue;
+    }
 }
