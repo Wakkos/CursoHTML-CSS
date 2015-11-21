@@ -1,4 +1,5 @@
 # CursoHTML-CSS
+Si hay dudas con respecto al curso, podéis escribir y preguntar al correo *formación@anedma.com* o a *wakkos@gmail.com*.
 ## Clase 1:
 - Semántica HTML
 - Diferencia entre presentación y contenido
@@ -37,4 +38,25 @@
 - [Patrones para forularios](http://html5pattern.com/)
 - [Video explicativo sobre Pseudoselectores](https://www.youtube.com/watch?v=aCfYyXqmNLU)
 
+## Clase 4:
+- Mediaqueries
+- Imágenes responsive
 
+### Links:
+- [Propiedades de los Mediaquerues](http://coolvillage.es/propiedades-de-los-mediaqueries/)
+- [Vocabulario de CSS](http://apps.workflower.fi/vocabs/css/es)
+
+
+## Clase 5:
+- Módulo Flexbox
+- Preprocesadores
+- Sprites
+- FontIcons
+
+### Links:
+- [Propiedades de Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [Curso Preprocesadores - Less](https://www.udemy.com/less-de-cero-a-experto/learn/#/)
+- [Documentación y Funciones Sass](http://sass-lang.com/documentation/Sass/Script/Functions.html)
+- [Sassmeister - Editor online de Scss](http://sassmeister.com/)
+- [Introducción a Sprites](http://coolvillage.es/entendiendo-los-sprites/)
+- [Icomoon](https://icomoon.io/)
